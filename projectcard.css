@@ -1,0 +1,151 @@
+.projectcards {
+    margin-top: 20rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+
+
+}
+
+.projectcards h1 {
+    margin: auto;
+    margin-bottom: 5rem;
+    font-weight: bolder;
+
+}
+
+.cover {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    padding-top: 2rem;
+    
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 390px;
+    height: 314px;
+    position: relative;
+    border: 5px solid white;
+    border-radius: 5%;
+    /* background-color: #0a0732; */
+    color: white;
+    font-weight: bold;
+    /* background-color: #100d3a; */
+    /* margin-inline: 3rem; */
+    /* margin: auto; */
+    margin-inline: 4rem;
+margin-block: 1.5rem;
+/* background-color: black; */
+    /* background: url(./); */
+    /* background-image: url(./osac.png); */
+
+}
+.innercard{
+
+    
+}
+
+.card1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    background-color: rgba(80, 64, 44, 0);
+    transition: background-color 1s;
+}
+
+.card1-info {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 1.5em;
+    text-align: center;
+    transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.card1-bio {
+    position: absolute;
+    bottom: 3.5rem;
+    padding: 1.8em;
+    text-align: center;
+    transform: translate(100%, 40%);
+    transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.card1-bio p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+
+/*Text*/
+.title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    margin: 0 auto 4%;
+    background-color: #000;
+}
+
+.subtitle {
+    font-weight: 400;
+    line-height: 1em;
+    font-size: 1.3em;
+}
+
+
+
+/*Hover*/
+
+
+.card1:hover .card1-info {
+    transform: translateX(-100%);
+}
+
+.card1:hover .card1-bio {
+    transform: translate(0, 40%);
+    opacity: 1;
+}
+
+
+.card1-bio a {
+    margin-inline: 12px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: red;
+    padding-inline: 25px;
+    margin-top: 20px;
+    padding-block: 6px;
+    color: white;
+    border-radius: 8%;
+}
+
+.photo {
+    height: 64%;
+    width: 100%;
+
+    /* -webkit-object-fit: cover; */
+
+}
+
+.photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
