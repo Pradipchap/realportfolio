@@ -1,0 +1,58 @@
+.projects {
+    margin-top: 15rem;
+    /* height: 40rem; */
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.myintro {
+    /* height: 15rem; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+
+    /* margin: auto; */
+
+
+}
+
+.myintro div {
+    margin: a;
+}
+
+.myintro h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+
+.myintro p {
+    /* background-color: red; */
+    max-width: 60rem;
+    color: rgb(197, 252, 254);
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    min-width: 20rem;
+    margin-left: 3rem;
+    font-weight: bold;
+    margin-right: 3rem;
+
+}
+
+.myintro div {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.myintro .a {
+    rotate: 180deg;
+
+}
