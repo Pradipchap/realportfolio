@@ -1,5 +1,5 @@
 import React from "react";
-import esume from "../Resume.docx";
+import esume from "../Resume-2.docx";
 import FileViewer from "react-file-viewer";
 import { saveAs } from "file-saver";
 import { Download } from "@mui/icons-material";
