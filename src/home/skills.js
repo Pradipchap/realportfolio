@@ -4,7 +4,7 @@ import Loading from "./loading";
 const skill = [
   {
     subject: "Web Development",
-    Related: ["React ", "Next.js ", "Node js ", "Firebase", "Tailwind", "MUI"],
+    Related: ["React ", "Redux", "Node js ", "Firebase", "Tailwind", "MUI"],
     Proficiency: 90,
   },
   {

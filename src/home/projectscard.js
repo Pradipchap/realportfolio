@@ -19,6 +19,13 @@ export default function Projectscard(props) {
       description: "A blog website for Open Source Ascol Circle",
       key: 1,
     },
+    {
+      pName: "Parwa App ",
+      type: "Mobile app",
+      img: "../loginpage.png",
+      description: "An app to visit and book religious tours,festivals,concerts",
+      key: 1,
+    },
     
   ];
   return (
@@ -35,7 +42,8 @@ export default function Projectscard(props) {
                   width: "100%",
                   height: "100%",
 
-                  backgroundSize: "contain",
+
+                  backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
                   overflow: " hidden",
                 }}
